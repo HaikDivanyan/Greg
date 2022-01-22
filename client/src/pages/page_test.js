@@ -25,6 +25,9 @@ function Example() {
         <button onClick={() => setFruit('banana')}>
           Banana
         </button>
+        <button onClick={() => setFruit('pear')}>
+          Banana
+        </button>
       </div>
     );
   }
