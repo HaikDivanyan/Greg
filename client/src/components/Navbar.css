@@ -27,6 +27,22 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+<<<<<<< Updated upstream
+=======
+    text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 35px #fff, 0 0 45px #fff, 0 0 50px #fff;
+    animation: animate 5s linear infinite;
+
+  }
+  @keyframes animate {
+    0%
+    {
+      filter: hue-rotate(0deg);
+    }
+    100%
+    {
+      filter: hue-rotate(360deg);
+    }
+>>>>>>> Stashed changes
   }
   
   .fa-typo3 {
